@@ -1,0 +1,63 @@
+:root {
+    --words: center;
+    --word-color: aqua;
+}
+
+.backdrop {
+    background-color: black;
+}
+
+.header-content {
+    text-align: var(--words);
+    color: var(--word-color);
+}
+
+h1 {
+    text-align: var(--words);
+    color: var(--word-color);
+}
+
+h2 {
+    text-align: var(--words);
+    color: var(--word-color);
+}
+
+.Top {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.Bottom {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
+
+.Card {
+    outline-color: white;
+    outline-style: dotted;
+    padding: 50px;
+}
+
+.card-header {
+    display: grid;
+    width: 100%;
+    grid-template-columns: reapeat(3, 1fr);
+    outline-style: solid;
+    outline-color: var(--word-color);
+    padding: 5px;
+    border-radius: 60%;
+}
+
+.card-content {
+    text-align: var(--words);
+    color: var(--word-color);
+}
+
+footer {
+    text-align: var(--words);
+    color: var(--word-color);
+}
