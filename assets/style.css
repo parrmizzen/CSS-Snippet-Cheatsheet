@@ -3,29 +3,37 @@
     --word-color: aqua;
 }
 
+/* Allows me to pull code over and over again from the root source */
 .backdrop {
     background-color: black;
 }
 
-.header-content {
-    text-align: var(--words);
+/* Turned the background black */
+.header-tags {
+    display: flex;
+    justify-content: center;
     color: var(--word-color);
 }
 
+/* Going to use to make this header change colors*/
+/* .Welcome {
+    display: flex;
+    justify-content: var(--words);
+
+} */
+
+/* Displayed my buttons in the middle of my header and going up and down.  */
 h1 {
-    text-align: var(--words);
+    display: flex;
+    justify-content: var(--words);
     color: var(--word-color);
 }
 
+/*  */
 h2 {
-    text-align: var(--words);
+    display: flex;
+    justify-content: var(--words);
     color: var(--word-color);
-}
-
-.Top {
-    display: grid;
-    width: 100%;
-    grid-template-columns: repeat(3, 1fr);
 }
 
 .Bottom {
@@ -34,21 +42,18 @@ h2 {
     grid-template-columns: repeat(3, 1fr);
 }
 
-
+.Completed {
+    display: flex;
+    justify-content: var(--words);
+    text-decoration: underline;
+}
 
 .Card {
+    display: flex;
+    justify-content: var(--words);
     outline-color: white;
     outline-style: dotted;
     padding: 50px;
-}
-
-.card-header {
-    display: grid;
-    width: 100%;
-    grid-template-columns: reapeat(3, 1fr);
-    outline-style: solid;
-    outline-color: var(--word-color);
-    padding: 5px;
     border-radius: 60%;
 }
 
