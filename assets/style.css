@@ -1,6 +1,6 @@
 :root {
     --words: center;
-    --word-color: aqua;
+    --word-color: greenyellow;
 }
 
 /* Allows me to pull code over and over again from the root source */
@@ -34,6 +34,19 @@ h2 {
     display: flex;
     justify-content: var(--words);
     color: var(--word-color);
+}
+
+button {
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: greenyellow;
 }
 
 .Bottom {
