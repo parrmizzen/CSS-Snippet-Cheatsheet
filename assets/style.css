@@ -1,6 +1,7 @@
 :root {
     --words: center;
     --word-color: greenyellow;
+    --about-me: orange;
 }
 
 /* Allows me to pull code over and over again from the root source */
@@ -13,6 +14,33 @@
     display: flex;
     justify-content: center;
     color: var(--word-color);
+}
+
+.header-one {
+    text-align: center;
+}
+
+
+.about-me {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+    color: var(--about-me);
+    background-color: white;
+}
+
+.Coverletter {
+    display: flex;
+    justify-content: center;
+    color: var(--about-me);
+}
+
+.work {}
+
+img {
+    display: inline-flex;
+    width: 180px;
+    height: 180px;
 }
 
 /* Going to use to make this header change colors*/
@@ -37,16 +65,20 @@ h2 {
 }
 
 button {
-    border: none;
+    border-radius: 50%;
     color: black;
-    padding: 15px 32px;
+    padding: 10px;
     text-align: center;
-    text-decoration: none;
+    text-decoration: ;
     display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
+    font-size: 20px;
     cursor: pointer;
     background-color: greenyellow;
+    transition-duration: 0.3s;
+}
+
+button:hover {
+    background-color: white;
 }
 
 .Bottom {
