@@ -6,7 +6,7 @@
 
 /* Allows me to pull code over and over again from the root source */
 .backdrop {
-    background-color: black;
+    background-color: gray;
 }
 
 /* Turned the background black */
@@ -22,24 +22,44 @@
 
 
 .about-me {
-    display: grid;
+    display: table-row;
     width: 100%;
     grid-template-columns: repeat(2, 1fr);
     color: var(--about-me);
     background-color: white;
+
 }
 
 .Coverletter {
     display: flex;
     justify-content: center;
     color: var(--about-me);
+    border-color: black;
+    border-bottom-style: double;
+    padding: 20px;
 }
 
-.work {}
+p {
+    border-style: solid;
+    border-color: black;
+}
+
+.work {
+    display: flex;
+    justify-content: center;
+    color: var(--about-me);
+    padding: 20px;
+}
+
+.Card {
+    display: flex;
+    justify-content: var(--words);
+    text-decoration: underline;
+}
 
 img {
     display: inline-flex;
-    width: 180px;
+    width: 300px;
     height: 180px;
 }
 
@@ -69,7 +89,6 @@ button {
     color: black;
     padding: 10px;
     text-align: center;
-    text-decoration: ;
     display: inline-block;
     font-size: 20px;
     cursor: pointer;
@@ -93,18 +112,24 @@ button:hover {
     text-decoration: underline;
 }
 
-.Card {
+figure {
     display: flex;
     justify-content: var(--words);
+    background: white;
     outline-color: white;
     outline-style: dotted;
     padding: 50px;
     border-radius: 60%;
 }
 
-.card-content {
-    text-align: var(--words);
-    color: var(--word-color);
+.Resume {
+    display: flex;
+    justify-content: var(--words);
+    background: white;
+    outline-color: white;
+    outline-style: dotted;
+    padding: 50px;
+
 }
 
 footer {
