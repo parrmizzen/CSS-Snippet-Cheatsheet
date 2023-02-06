@@ -32,6 +32,7 @@
 
 .Coverletter {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     color: var(--about-me);
     border-color: black;
@@ -57,9 +58,16 @@ p {
     text-decoration: underline;
 }
 
+.Card-img {
+
+    width: 100px;
+    height: 100px;
+}
+
 img {
-    display: inline-flex;
-    width: 300px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
     height: 180px;
 }
 
@@ -78,11 +86,11 @@ h1 {
 }
 
 /*  */
-h2 {
+/* h2 {
     display: flex;
     justify-content: var(--words);
     color: var(--word-color);
-}
+} */
 
 button {
     border-radius: 50%;
