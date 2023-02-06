@@ -40,9 +40,17 @@
     padding: 20px;
 }
 
+.Card-img {
+    display: flex;
+    justify-items: center;
+    width: 100px;
+    height: 100px;
+}
+
 p {
     border-style: solid;
     border-color: black;
+    padding: 20px;
 }
 
 .work {
@@ -58,17 +66,18 @@ p {
     text-decoration: underline;
 }
 
-.Card-img {
 
-    width: 100px;
-    height: 100px;
-}
+
 
 img {
     display: flex;
     justify-content: center;
     width: 100%;
     height: 180px;
+}
+
+.Resume-img {
+    height: fit-content;
 }
 
 /* Going to use to make this header change colors*/
@@ -128,6 +137,10 @@ figure {
     outline-style: dotted;
     padding: 50px;
     border-radius: 60%;
+}
+
+figure:hover {
+    background-color: aqua;
 }
 
 .Resume {
